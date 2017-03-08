@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_third_screen"
+    android:background="#D500"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.first.in.maths.third_screen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="She is our boring math ma'am :3!!!"
+        android:textSize="30dp"
+        android:textColor="#EEFF41"
+      />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:id="@+id/home"/>
+</LinearLayout>
